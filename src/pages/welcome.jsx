@@ -35,7 +35,7 @@ const Welcome = (props) => {
         <Slide
           media={
             <img
-              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1587463599/image_1.png"
+              src="https://res.cloudinary.com/dcft8yhab/image/upload/v1587463594/image_2.png"
               alt=""
             />
           }
