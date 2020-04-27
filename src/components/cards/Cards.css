@@ -1,0 +1,19 @@
+.top-card{
+    width: 30%;
+    height: 60vh !important;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+.top-card-content{
+    position: absolute;
+    bottom: 0;
+    height: 120px;
+    color: white;
+    padding: 5%;
+    background-color: rgba(0, 0, 0, .4);
+}
