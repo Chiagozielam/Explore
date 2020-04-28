@@ -1,11 +1,28 @@
 .space{
-    margin-top: 6%;
+    margin-top: 4%;
 }
 .home-top-cards-headline{
     color: gray;
-    margin-bottom: 2.7%;
+    margin-bottom: 2%;
 }
 .home-top-cards-headline span{
     color: black;
     font-weight: bold;
+}
+.horizontal-scrollable-cards{
+    overflow-x: scroll;
+    display: flex;
+}
+.top-card-grid{
+    flex-wrap: nowrap !important;
+    overflow-x: scroll;
+    scrollbar-width: none;
+}
+.top-card-grid::-webkit-scrollbar { /* WebKit */
+    width: 0;
+    height: 0;
+}
+.top-locations-section{
+    margin-left: 10%;
+    margin-right: 10%;
 }

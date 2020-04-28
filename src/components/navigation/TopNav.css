@@ -1,13 +1,14 @@
 nav{
   display: flex;
   height: 60px;
-  background-color: #FCFCFC;
+  background-color: rgb(250, 242, 240);
   font-size: 20px;
 }
 nav ul li{
   list-style-type: none;
   display: inline;
   margin-left: 22%;
+  font-size: 16px
 }
 .logo{
   margin-left: 10%;
