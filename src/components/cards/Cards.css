@@ -40,3 +40,8 @@
     margin-top: 5%;
     border-radius: 10px;
 }
+@media screen and (max-width: 760px){
+    .top-card{
+        width: 250px;
+    }
+}

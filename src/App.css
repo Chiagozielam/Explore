@@ -10,3 +10,10 @@ body{
     margin-top: 3%;
     margin-left: 10%;
 }
+
+@media screen and (max-width: 760px){
+    .full-app-wrap{
+        margin-top: 10%;
+        margin-left: 5%;
+    }
+}
