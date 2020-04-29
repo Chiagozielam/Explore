@@ -21,6 +21,7 @@
     display: flex;
 }
 .top-card-grid{
+    width: 100%;
     flex-wrap: nowrap !important;
     overflow-x: scroll;
     scrollbar-width: none;
@@ -34,11 +35,20 @@
     margin-left: 10%;
     margin-right: 10%;
 }
+.mobile-topo-cards-container{
+    display: none;
+}
 
 @media screen and (max-width: 760px){
     .top-locations-section{
         margin-top: 15%;
         margin-left: 5%;
         margin-right: 5%;
+    }
+    .top-cards-container{
+        display: none !important;
+    }
+    .mobile-topo-cards-container{
+        display: block;
     }
 } 
