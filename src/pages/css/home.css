@@ -1,7 +1,14 @@
+
 .space{
     margin-top: 4%;
 }
+.explore-header{
+    padding-top: 7%;
+    padding-bottom: 3%;
+    text-transform: uppercase;
+}
 .home-top-cards-headline{
+    margin-top: 7%;
     color: gray;
     margin-bottom: 2%;
 }
@@ -18,7 +25,8 @@
     overflow-x: scroll;
     scrollbar-width: none;
 }
-.top-card-grid::-webkit-scrollbar { /* WebKit */
+
+.top-card-grid::-webkit-scrollbar {
     width: 0;
     height: 0;
 }
@@ -33,4 +41,4 @@
         margin-left: 5%;
         margin-right: 5%;
     }
-}
+} 

@@ -15,9 +15,10 @@ const Home = () => {
           </Column>
         </Responsive>
         <Column mobile={16} tablet={12} computer={12}>
+          <h2 className="explore-header">Explore</h2>
           <SearchBar />
-          <p className="space home-top-cards-headline"><span>Discover</span> new places</p>
-          <Grid className="top-card-grid">
+          <p className="home-top-cards-headline"><span>Discover</span> new places</p>
+          <Grid className="top-card-grid space">
             <Column mobile={12} tablet={5} computer={5}>
               <TopCard 
                 imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1587992037/ajt-bin-haddu-4753097_640.jpg"

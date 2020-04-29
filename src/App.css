@@ -5,6 +5,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    height: 100vh !important;
+    margin-top: 0;
 }
 .full-app-wrap{
     margin-top: 3%;
@@ -13,7 +15,7 @@ body{
 
 @media screen and (max-width: 760px){
     .full-app-wrap{
-        margin-top: 10%;
+        margin-top: 3%;
         margin-left: 5%;
     }
 }
