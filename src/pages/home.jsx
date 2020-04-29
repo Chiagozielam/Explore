@@ -14,7 +14,7 @@ const Home = () => {
             <Advertisement unit="half page" test="Half Page" />
           </Column>
         </Responsive>
-        <Column mobile={16} tablet={12} computer={12}>
+        {/* <Column mobile={16} tablet={12} computer={12}>
           <h2 className="explore-header">Explore</h2>
           <SearchBar />
           <p className="home-top-cards-headline"><span>Discover</span> new places</p>
@@ -55,7 +55,7 @@ const Home = () => {
               />
             </Column>
           </Grid>
-        </Column>
+        </Column> */}
       </Grid>
       <section className="space top-locations-section">
         <p className="space home-top-cards-headline"><span>Most</span> visited places</p>
