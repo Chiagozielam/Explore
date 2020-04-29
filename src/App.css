@@ -5,8 +5,8 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    height: 100vh !important;
     margin-top: 0;
+    overflow-x: hidden;
 }
 .full-app-wrap{
     margin-top: 3%;
