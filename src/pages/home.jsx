@@ -14,7 +14,7 @@ const Home = () => {
             <Advertisement unit="half page" test="Half Page" />
           </Column>
         </Responsive>
-        <Column mobile={16} width={12}>
+        <Column mobile={16} tablet={12} computer={12}>
           <SearchBar />
           <p className="space home-top-cards-headline"><span>Discover</span> new places</p>
           <Grid className="top-card-grid">
@@ -25,28 +25,28 @@ const Home = () => {
                 description="View all amazing and stunning places around Africa"
               />
             </Column>
-            <Column mobile={12} width={5}>
+            <Column mobile={12} tablet={5} computer={5}>
               <TopCard 
                 imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1588036752/statue-of-liberty-271430_640.jpg"
                 continent="America"
                 description="View all amazing and stunning places around America"
               />
             </Column>
-            <Column mobile={12} width={5}>
+            <Column mobile={12} tablet={5} computer={5}>
               <TopCard 
                 imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1587992036/sydney-4034244_640.jpg"
                 continent="Australia"
                 description="View all amazing and stunning places around Australia"
               />
             </Column>
-            <Column mobile={12} width={5}>
+            <Column mobile={12} tablet={5} computer={5}>
               <TopCard 
                 imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1587992037/takshang-669959_640.jpg"
                 continent="Asia"
                 description="View all amazing and stunning places around Asia"
               />
             </Column>
-            <Column mobile={12} width={5}>
+            <Column mobile={12} tablet={5} computer={5}>
               <TopCard
                 imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1587992036/river-690374_640.jpg"
                 continent="Europe"
