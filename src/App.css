@@ -1,6 +1,9 @@
 :root{
     --main-light-grey:  #F1F1F1;
     --main-orange: #FF4500;
+    --main-dark-theme: #2F2E41;
+    --facebook-blue: #3B5998;
+    --twitter-blue: #00ACEE;
 }
 
 body{

@@ -6,6 +6,7 @@ import TopNav from './components/navigation/TopNav';
 import MobileNav from './components/navigation/MobileNav';
 import WelcomePage from './pages/welcome';
 import HomePage from './pages/home';
+import locationDetails from './pages/locationDetails';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={WelcomePage} />
           <Route path="/home" component={HomePage} />
+          <Route path="/details" component={locationDetails} />
         </Switch>
       </div>
       <Responsive maxWidth={760}>

@@ -60,8 +60,7 @@ const Home = () => {
             <Advertisement unit="half page" test="Half Page" />
           </Column>
         </Responsive>
-        <Column mobile={16} tablet={12} computer={12} className="top-cards-container">
-          <h2 className="explore-header">Explore</h2>
+        <Column mobile={16} tablet={12} computer={10} className="top-cards-container">
           <SearchBar />
           <p className="home-top-cards-headline"><span>Discover</span> new places</p>
           <Grid className="top-card-grid space">

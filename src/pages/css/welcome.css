@@ -13,17 +13,17 @@
     margin-top: -6%;
     width: 70%;
     color: #686868;
-    font-size: 25px;
+    font-size: 23px;
 }
 .landing-btn{
-    height: 100px;
+    height: 65px;
     background-color: #FF4500;
-    width: 396px;
+    width: 300px;
     border-radius: 20px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     transform: rotate(-2.23deg) translateX(135%);
-    font-size: 35px;
-    margin-top: 3%;
+    font-size: 25px;
+    margin-top: 2%;
     transition: .3s;
 }
 .landing-btn:hover{
@@ -31,6 +31,9 @@
     background-color: white;
     color: #FF4500;
     
+}
+.landing-btn-mobile{
+    display: none;
 }
 @media screen and (max-width: 760px){
     .landing-img{

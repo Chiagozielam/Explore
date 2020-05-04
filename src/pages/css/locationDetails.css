@@ -1,0 +1,45 @@
+.location-details{
+    margin-top: 10%;
+}
+.location-name{
+    color: #FF4500;
+}
+.location-details-text{
+    margin-top: 4%;
+    padding: 4%;
+    padding-left: 0 !important;
+    padding-right: 6%;
+    font-size: 14px;
+}
+.location-share-btns{
+    width: 200px;
+    display: block;
+    margin-bottom: 2%;
+}
+.facebook-blue{
+    background-color: var(--facebook-blue)
+}
+.twitter-blue{
+    background-color: var(--twitter-blue);
+}
+.location-extras{
+    margin-top: 10%;
+}
+.location-extras-boxes{
+    width: 120px;
+    height: 80px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: center;
+}
+.dark-theme{
+    background-color: var(--main-dark-theme);
+}
+.location-img-container-box{
+    height: 70vh;
+    margin-top: -3%;
+}
+.location-details-img{
+    width: 100%;
+    height: 100%;
+}
