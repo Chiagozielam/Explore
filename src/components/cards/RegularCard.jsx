@@ -1,5 +1,6 @@
 import React from "react";
 import { Card, Image, Button } from "semantic-ui-react";
+import { Link } from "react-router-dom"
 
 const RegularCard = () => {
   return (
@@ -17,7 +18,7 @@ const RegularCard = () => {
           <Card.Header className="regular-card-location-text">
             Aladumo Monument Beach
           </Card.Header>
-          <button className="regular-card-btn">view details</button>
+          <Link to="/details"><button className="regular-card-btn">view details</button></Link>
         </Card.Content>
       </Card>
     </div>
