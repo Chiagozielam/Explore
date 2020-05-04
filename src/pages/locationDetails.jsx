@@ -10,7 +10,7 @@ const locationDetails = () => {
       <Responsive minWidth={760}>
         <Grid>
           <Row>
-            <Column mobile={16} width={7}>
+            <Column width={7}>
               <div className="location-details">
                 <h1 className="location-name">Morocco, Sanctatori</h1>
                 <p className="location-details-text">
