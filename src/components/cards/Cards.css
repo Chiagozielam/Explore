@@ -13,11 +13,12 @@
     position: absolute;
     bottom: 0;
     height: 120px;
+    width: 100%;
     color: white;
     padding: 5%;
-    background-color: rgba(0, 0, 0, .5);
+    background-color: rgba(0, 0, 0, .4);
     border-top-left-radius: 20px;
-    border-top-right-radius: 60px;
+    border-top-right-radius: 40px;
 }
 .top-card-continent{
     text-transform: uppercase;
@@ -39,6 +40,19 @@
     margin: 0;
     margin-top: 5%;
     border-radius: 10px;
+}
+.location-detail-card{
+    margin-top: -3.1%;
+    margin-left: -5.3% !important;
+    width: 100vw;
+    height: 60vh !important;
+    overflow: hidden;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
 }
 @media screen and (max-width: 760px){
     .top-card{
