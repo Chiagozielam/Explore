@@ -58,11 +58,19 @@ const locationDetails = () => {
           </Row>
         </Grid>
       </Responsive>
+
       <Responsive maxWidth={760}>
         <LocationDetailCard
           imageUrl="https://res.cloudinary.com/dcft8yhab/image/upload/v1587992037/ajt-bin-haddu-4753097_640.jpg"
           location="Morocco Tourism Bricks"
         />
+        <p>
+          thi si ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          thi si ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          thi si ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          thi si ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+          thi si ddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd
+        </p>
       </Responsive>
     </div>
   );
