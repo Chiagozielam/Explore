@@ -1,18 +1,21 @@
-.mobile-nav-container{
-    background-color: rgb(250, 242, 240);
-    width: 100vw;
-    position: fixed;
-    bottom: 0;
-    height: 60px;
-    padding-left: 3%;
-    padding-right: 3%;
+.mobile-nav-container {
+  background-color: rgb(230, 230, 230);
+  width: 100vw;
+  position: fixed;
+  bottom: 0;
+  height: 60px;
+  padding-left: 3%;
+  padding-right: 3%;
+  -webkit-box-shadow: -1px -5px 22px 0px rgba(245, 245, 245, 1);
+  -moz-box-shadow: -1px -5px 22px 0px rgba(245, 245, 245, 1);
+  box-shadow: -1px -5px 22px 0px rgba(245, 245, 245, 1);
 }
-.mobile-nav-grid-columns{
-    text-align: center;
-    transform: translateY(60%);
-    font-size: 24px;
-    color: rgb(82, 81, 81);
+.mobile-nav-grid-columns {
+  text-align: center;
+  transform: translateY(60%);
+  font-size: 24px;
+  color: rgb(82, 81, 81);
 }
-.mobile-nav-active{
-    color: var(--main-orange);
+.mobile-nav-active {
+  color: var(--main-orange);
 }
