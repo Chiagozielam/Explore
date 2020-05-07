@@ -13,7 +13,7 @@ const RegularCard = () => {
         />
         <Card.Content className="regular-card-content">
           <Card.Meta>
-            <span className="date">Nigeria</span>
+            <span className="">Nigeria</span>
           </Card.Meta>
           <Card.Header className="regular-card-location-text">
             Aladumo Monument Beach

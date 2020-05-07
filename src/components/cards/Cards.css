@@ -30,15 +30,19 @@
 .regular-card-content{
     padding-left: 0 !important;
 }
+.regular-card-content span{
+    font-size: 12px;
+}
 .regular-card-location-text{
     margin-top: 3% !important;
 }
 .regular-card-btn{
     width: 130px;
+    height: 30px;
     font-size: 12px;
     text-transform: uppercase;
     margin: 0;
-    margin-top: 5%;
+    margin-top: 10% !important;
     border-radius: 10px;
 }
 .location-detail-card{
